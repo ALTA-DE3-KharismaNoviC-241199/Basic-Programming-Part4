@@ -1,5 +1,12 @@
 def cetak_table_perkalian(number):
     pattern = ""
+    for i in range (1,10):
+        print(i, end ="\t")
+    print()
+    for j in range (1,10):
+        for k in range (1,10):
+            print (j * k, end ="\t")
+        print("\n")
     return pattern
 
 if __name__ == '__main__':

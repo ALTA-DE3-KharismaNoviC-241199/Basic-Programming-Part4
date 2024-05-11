@@ -1,5 +1,9 @@
 def draw_xyz(N):
     pattern = ""
+    for i in range(N):
+        for j in range (N):
+            pattern += chr(88 + (i+j)% 3)+ " "
+        pattern += "\n"
     return pattern
 
 if __name__ == '__main__':

@@ -6,6 +6,3 @@ class TestPlayWithAsterisk(unittest.TestCase):
         expected_output = "    * \n   * * \n  * * * \n * * * * \n* * * * * \n"
         result = play_with_asterisk(5)
         self.assertEqual(result, expected_output)
-        
-if __name__ == '__main__':
-    unittest.main()
