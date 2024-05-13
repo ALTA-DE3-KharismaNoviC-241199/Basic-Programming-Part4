@@ -4,7 +4,7 @@ def mean_median(array_input):
     array_input.sort()
     length = len(array_input)
     mean = sum(array_input)/length
-    if length % 2 == 0:
+    if length % 2 == 0 :
         median = (array_input[length//2 -1] + array_input[length//2])/2
     else:
         median = array_input[length//2]
